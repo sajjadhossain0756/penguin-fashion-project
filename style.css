@@ -156,6 +156,54 @@ header{
 .man-section{
     margin: 60px 80px;
 }
+/* feature section start here */
+.feature-section{
+    margin: 60px 80px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.feature-content{
+    flex-direction: column;
+    gap: 20px;
+}
+.feature-card{
+    align-items: center;
+    gap: 20px;
+    max-width: 490px;
+    box-shadow: 2px 4px 20px rgba(226, 223, 223,0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+.feature-card-image{
+    max-width: 80px;
+}
+.feature-card-image img{
+    width: 100%;
+}
+.feature-card-content .title{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+.feature-image{
+    max-width: 600px;
+}
+.feature-image img{
+    width: 100%;
+}
+/* footer section styles start here */
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+}
+.footer-container p{
+    text-align: center;
+    font-weight: 700;
+}
+
 
 /* responsive design for mobile device */
 @media screen and (max-width:576px) {
@@ -194,6 +242,13 @@ header{
 /* man section styles start here */
 .man-section{
     margin: 30px 20px;
+}
+/* feature section start here */
+.feature-section{
+    margin: 60px 20px;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    gap: 50px;
 }
 
 }
@@ -246,6 +301,17 @@ header{
 /* man section styles start here */
 .man-section{
     margin: 30px 40px;
+}
+/* man section styles start here */
+.man-section{
+    margin: 30px 40px;
+}
+/* feature section start here */
+.feature-section{
+    margin: 60px 20px;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    gap: 50px;
 }
         
 }
