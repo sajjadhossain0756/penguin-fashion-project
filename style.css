@@ -23,6 +23,18 @@
 .d-flex{
     display: flex;
 }
+.primary-color{
+    color: #3e3e3e;
+}
+.primary-btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #98b235;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+}
 /* nav section styles start here */
 header{
     background-color: #fffbf0;
@@ -52,6 +64,38 @@ header{
 .nav-menu-icon{
     display: none;
 }
+/* hero image section styles start here */
+.hero-section{
+    margin: 30px 80px;
+    padding-bottom: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-content{
+    max-width: 420px;
+}
+.hero-content .title{
+    font-size: 70px;
+    font-weight: 500;
+}
+.hero-content span{
+    color: #fabe4c;
+}
+.hero-image{
+    max-width: 440px;
+}
+.hero-image img{
+    width: 100%;
+}
+.hero-btn{
+    font-size: 18px;
+    margin: 20px 0px;
+}
+.hero-btn i{
+    color: white;
+    font-size: 18px;
+    padding-right: 5px;
+}
 
 /* responsive design for mobile device */
 @media screen and (max-width:576px) {
@@ -67,22 +111,39 @@ header{
     display: block;
     font-size: 32px;
 }
-    
+/* hero image section styles start here */
+.hero-section{
+    margin:40px 20px;
+    padding-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
 }
+
+}
+
+    
+
 
 /* responsive design for medium device */
 @media screen and (min-width:577px) and (max-width:776px) {
  
-    /* nav section styles start here */
-    .navbar{
-       padding: 40px;
-    }
-    .navbar-nav{
-        display: none;
-    }
-    .nav-menu-icon{
-        display: block;
-        font-size: 32px;
-    }
+/* nav section styles start here */
+.navbar{
+    padding: 40px;
+}
+.navbar-nav{
+    display: none;
+}
+.nav-menu-icon{
+    display: block;
+    font-size: 32px;
+}
+/* hero image section styles start here */
+.hero-section{
+    margin:40px 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+}
         
-    }
+}
