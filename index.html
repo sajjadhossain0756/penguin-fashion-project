@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguine Fashion Project</title>
 
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- css main file link -->
      <link rel="stylesheet" href="style.css">
 </head>
@@ -12,8 +17,19 @@
     <!-- header section start here -->
      <header>
           <!-- nav section start here -->
-           <nav>
-
+           <nav class="navbar d-flex">
+                <div class="nav-brand">
+                     <img src="./icons/logo.png" alt="">
+                </div>
+                <ul class="navbar-nav d-flex">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Product</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+                </ul>
+                <div class="nav-menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
            </nav>
            <!-- hero image section start here -->
             <section class="hero-section">
